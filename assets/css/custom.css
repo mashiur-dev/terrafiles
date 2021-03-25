@@ -1,0 +1,71 @@
+/*
+Header
+*/
+.dropdown-list {
+	min-width: 160px;
+}
+/*
+Page nav
+*/
+.page-nav {
+	display: table;
+	margin: 0 auto;
+	padding: 40px 0;
+	vertical-align: bottom;
+}
+
+.page-nav button.page-load {
+	background: #eee;
+	border-radius: 30px;
+	box-shadow: none;
+	color: #121212;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 24px;
+	margin: 10px 0 0;
+	padding: 2px 15px 0;
+	border: 0px;
+}
+
+.page-nav button.page-load.btn-pageload-disabled {
+	border-color: #c6c6c6;
+	color: #c6c6c6;
+	cursor: not-allowed;
+}
+
+
+/* 
+Sidebar 
+*/
+
+.subscribe-success {
+	text-align: left;
+	padding: 12px;
+	font-size: 12px;
+	line-height: 16px;
+	display: none;
+}
+form.success .subscribe-success {
+	display: block;
+}
+.subscribe-success h3 {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+	margin-bottom: 5px;
+}
+
+/* Post page */
+.content-image img {
+	max-width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+.content-image img {
+	max-width: 100%;
+	height: auto;
+}
+}
